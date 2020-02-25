@@ -1,0 +1,5 @@
+plugin.iml
+target/
+work/
+portshift_latest_scan.html
+.idea/

@@ -1,4 +1,3 @@
-/home/rafael/dev/git/github/Portshift-Jenkins-CI-Plugin/portshift-jenkins-ci-plugin/src/main/java/io/jenkins/plugins/portshiftVulnerabilityScanner/PortshiftVulnerabilityScanExecuter.java
-/home/rafael/dev/git/github/Portshift-Jenkins-CI-Plugin/portshift-jenkins-ci-plugin/src/main/java/io/jenkins/plugins/portshiftVulnerabilityScanner/PortshiftScannerAction.java
-/home/rafael/dev/git/github/Portshift-Jenkins-CI-Plugin/portshift-jenkins-ci-plugin/src/main/java/io/jenkins/plugins/portshiftVulnerabilityScanner/PortshiftVulnerabilityScannerBuilder.java
-/home/rafael/dev/git/github/Portshift-Jenkins-CI-Plugin/portshift-jenkins-ci-plugin/target/generated-sources/localizer/io/jenkins/plugins/portshiftVulnerabilityScanner/Messages.java
+/home/naor/repositories/plugin/target/generated-sources/localizer/io/jenkins/plugins/portshift_vulnerability_scanner/Messages.java
+/home/naor/repositories/plugin/src/main/java/io/jenkins/plugins/portshift_vulnerability_scanner/PortshiftVulnerabilityScanExecuter.java
+/home/naor/repositories/plugin/src/main/java/io/jenkins/plugins/portshift_vulnerability_scanner/PortshiftVulnerabilityScannerBuilder.java
