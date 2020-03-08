@@ -1,1 +1,1 @@
-buildPlugin(platforms: ['linux'])
+buildPlugin(platforms: ['linux'], findbugs: [run: false])
