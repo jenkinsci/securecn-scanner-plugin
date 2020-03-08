@@ -1,3 +1,3 @@
-/home/naor/repositories/plugin/target/generated-sources/localizer/io/jenkins/plugins/portshift_vulnerability_scanner/Messages.java
-/home/naor/repositories/plugin/src/main/java/io/jenkins/plugins/portshift_vulnerability_scanner/PortshiftVulnerabilityScanExecuter.java
-/home/naor/repositories/plugin/src/main/java/io/jenkins/plugins/portshift_vulnerability_scanner/PortshiftVulnerabilityScannerBuilder.java
+/home/naor/repositories/jenkins-plugin/src/main/java/io/jenkins/plugins/portshift_vulnerability_scanner/PortshiftVulnerabilityScanExecuter.java
+/home/naor/repositories/jenkins-plugin/src/main/java/io/jenkins/plugins/portshift_vulnerability_scanner/PortshiftVulnerabilityScannerBuilder.java
+/home/naor/repositories/jenkins-plugin/target/generated-sources/localizer/io/jenkins/plugins/portshift_vulnerability_scanner/Messages.java
