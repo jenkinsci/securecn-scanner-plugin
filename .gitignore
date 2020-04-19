@@ -3,4 +3,4 @@ target/
 work/
 portshift_latest_scan.html
 .idea/
-portshift-scanner.iml
+*.iml
