@@ -1,0 +1,26 @@
+pipeline {
+    agent {
+        docker {
+            image 'gcr.io/gcp-etigcp-nprd-12855/pipelines/chuck_norris:v13'
+            args "-v /var/run/docker.sock:/var/run/docker.sock"
+            registryUrl 'https://gcr.io/'
+            registryCredentialsId 'k8sec-dev-gcr-sa'
+            label "portshift"
+        }
+    }
+    environment {
+        GCS_ARTIFACTS = credentials("eti-cloud-gcr-file")
+    }
+    stages {
+        stage('build') {
+            steps {
+                sh ("mvn package -B")
+                sh '''
+                    gcloud auth activate-service-account --key-file ${GCS_ARTIFACTS}
+                    echo "Uploading Jenkins plugin"
+                    gsutil cp -a public-read -r ${WORKSPACE}/target/portshift-scanner.hpi gs://securecn-artifacts//${GIT_COMMIT}/
+                '''
+            }
+        }
+    }
+}
