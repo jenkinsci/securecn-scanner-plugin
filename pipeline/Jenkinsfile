@@ -1,6 +1,7 @@
 pipeline {
     triggers {
         pollSCM('H 8 * * *')
+        githubPush()
     }
     agent {
         docker {
