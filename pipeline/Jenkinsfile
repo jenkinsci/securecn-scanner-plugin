@@ -1,5 +1,5 @@
 pipeline {
-    triggers { cron('H 4/* 0 0 1-5') }
+    triggers { cron('H 0 2 * * *') }
     agent {
         docker {
             image 'gcr.io/gcp-etigcp-nprd-12855/pipelines/chuck_norris:v13'
