@@ -18,7 +18,7 @@ pipeline {
                 sh '''
                     gcloud auth activate-service-account --key-file ${GCS_ARTIFACTS}
                     echo "Uploading Jenkins plugin"
-                    gsutil cp -a public-read -r ${WORKSPACE}/target/portshift-scanner.hpi gs://securecn-artifacts//${GIT_COMMIT}/
+                    gsutil cp -a public-read -r ${WORKSPACE}/target/securecn-scanner.hpi gs://securecn-artifacts//${GIT_COMMIT}/
                 '''
             }
         }
