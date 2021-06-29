@@ -14,7 +14,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                //build project
                 sh ("mvn package -B")
+
+                //upload binary to eti cloud
                 sh '''
                     gcloud auth activate-service-account --key-file ${GCS_ARTIFACTS}
                     echo "Uploading Jenkins plugin"
