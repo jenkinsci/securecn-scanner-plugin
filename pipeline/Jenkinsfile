@@ -16,7 +16,6 @@ pipeline {
             steps {
                 //build project
                 sh ("mvn package -B")
-
                 //upload binary to eti cloud
                 sh '''
                     gcloud auth activate-service-account --key-file ${GCS_ARTIFACTS}
