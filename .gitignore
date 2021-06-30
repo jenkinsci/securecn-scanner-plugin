@@ -1,4 +1,5 @@
 plugin.iml
+portshift-scanner.iml
 target/
 work/
 portshift_latest_scan.html
