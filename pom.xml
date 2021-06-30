@@ -8,8 +8,8 @@
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugins</groupId>
-    <artifactId>portshift-scanner</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <artifactId>securecn-scanner</artifactId>
+    <version>2.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <properties>
         <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
@@ -19,7 +19,7 @@
 
     <description>Enables scanning of docker images for vulnerabilities and report to Portshift server.</description>
     <url>https://github.com/jenkinsci/portshift-ci-plugin</url>
-    <name>Portshift Vulnerability Scanner Plugin</name>
+    <name>SecureCN Vulnerability Scanner Plugin</name>
 
     <!-- If you want this to appear on the wiki page:
     <developers>
@@ -52,6 +52,11 @@
     <dependencies>
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>plain-credentials</artifactId>
+            <version>1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>structs</artifactId>
             <version>1.19</version>
         </dependency>
@@ -70,7 +75,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-job</artifactId>
-            <version>2.11.2</version>
+            <version>2.25</version>
             <scope>test</scope>
         </dependency>
         <dependency>

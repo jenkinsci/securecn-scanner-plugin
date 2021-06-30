@@ -13,6 +13,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins:plain-credentials:1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jenkins-ci.plugins:credentials:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.jenkins-ci.plugins:structs:1.19" level="project" />
     <orderEntry type="library" name="Maven: org.jenkins-ci:symbol-annotation:1.19" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-step-api:2.19" level="project" />
@@ -25,7 +29,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.ui:jquery-detached:1.2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.ui:ace-editor:1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.cloudbees:diff4j:1.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-job:2.11.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-job:2.25" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins.workflow:workflow-basic-steps:2.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins:mailer:1.18" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jenkins-ci.plugins:display-url-api:0.2" level="project" />
