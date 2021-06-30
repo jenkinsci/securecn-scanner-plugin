@@ -18,7 +18,7 @@
     </properties>
 
     <description>Enables scanning of docker images for vulnerabilities and report to Portshift server.</description>
-    <url>https://github.com/jenkinsci/portshift-ci-plugin</url>
+    <url>https://github.com/jenkinsci/securecn-scanner-plugin</url>
     <name>SecureCN Vulnerability Scanner Plugin</name>
 
     <!-- If you want this to appear on the wiki page:
