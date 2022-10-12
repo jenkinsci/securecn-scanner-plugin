@@ -76,12 +76,3 @@ You can see the results of the scan in the Console Output.
 ```
    **Note**: the first time this command is invoked, many downloads will occur and it will take  some time.
 
-
-## Publicly release a new version to jenkins-ci.org ##
-See https://wiki.jenkins-ci.org/display/JENKINS/Hosting+Plugins#HostingPlugins-Releasingtojenkinsci.org. It describes several alternatives; use the following:
-
-1. If not already done, create a *settings.xml* file with your credentials, as described.
-2. Run the following, and accept defaults for all prompts:
-```
-    mvn release:prepare release:perform
-````
