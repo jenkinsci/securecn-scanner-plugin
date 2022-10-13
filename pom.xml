@@ -9,7 +9,7 @@
     </parent>
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>portshift-scanner</artifactId>
-    <version>${revision}.${changelist}</version>
+    <version>${changelist}</version>
     <packaging>hpi</packaging>
     <name>Panoptica Vulnerability Scanner Plugin</name>
     <description>Enables scanning of docker images for vulnerabilities and report to Panoptica server.</description>
@@ -43,7 +43,6 @@
     </scm>
 
     <properties>
-        <revision>2.0</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <!-- Baseline Jenkins version you use to build the plugin. Users must have this version or newer to run. -->
         <jenkins.version>2.332.4</jenkins.version>
