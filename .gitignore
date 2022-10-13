@@ -6,3 +6,4 @@ portshift_latest_scan.html
 .idea/
 *.iml
 src/main/webapp/portshift_deployment_cli
+.vscode
