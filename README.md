@@ -31,7 +31,7 @@ For Freestyle jobs, add a build step to scan the image with Panoptica, as part o
 3. Enter the access key for the Panoptica *Service* user. (required)
 4. Choose the related secret access key. the secret should be stored as text credential in Jenkins. (required) 
 5. Enter the image name. (required)
-6. Enter the URL of the Panoptica server (*https://Panoptica.cisco.com/* will be use as default)
+6. Enter the URL of the Panoptica server (*https://securecn.cisco.com/* will be use as default)
 7. In case you would like to scan an image that stored in a private registry, choose a Jenkins credential of type username and password representing docker registry credentials.
 8. mark the 'push local image' checkbox if you would like to scan a local image, and push it on scan success.
 9. Choose the maximum highest severity allowed for CVE. in case the image has a higher severity CVE, the stage will fail.
@@ -46,7 +46,7 @@ To the required step in the Jenkinsfile, add the 'PanopticaVulnerabilityScanner'
 1. PanopticaAccessKey- The access key and secret key for the Panoptica *Service* user. (required)
 2. PanopticaSecretKeyId- Credential ID for the related secret access key. the secret should be stored as a text credential in Jenkins. (required) 
 3. imageName- Required image name (required)
-4. url- The URL of the Panoptica server (*https://Panoptica.cisco.com/* will be used as a default)
+4. url- The URL of the Panoptica server (*https://securecn.cisco.com/* will be used as a default)
 5. dockerRegistryPasswordId- In case you would like to scan an image that stored in a private registry, enter a Jenkins credential ID of type username and password representing docker registry credentials.
 6. pushLocalImage- Set to 'true' if you would like to scan a local image, and push it on scan success.
 7. highestSeverityAllowed- The maximum highest severity allowed for CVE. in case the image has a higher severity CVE, the stage will fail. available values: (CRITICAL, HIGH, MEDIUM, LOW, UNKNOWN)
